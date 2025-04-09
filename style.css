@@ -1,0 +1,97 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+.container{
+  background-color: #ffffff;
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 30px;
+  inline-size: 600px;
+  block-size: 425px;
+  margin-top: 50px;
+}
+.container h1{
+  text-align: center;
+}
+.box{
+  margin-block: 20px; 
+}
+.form{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  height: 30px;
+}
+.form input{
+  flex: 1;
+  font-size: 17px;
+  padding: 10px;
+}
+.add{
+  color: white;
+  background-color: #4a90e2;
+  border: none;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  padding: 13px;
+}
+.btns{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;  
+}
+.btns button{
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  border: 1px solid #999999;
+  padding: 10px;
+  margin-right: 17px;
+}
+.first{
+  background-color: #4a90e2!important;
+  color: white;
+  border: 1px solid #4a90e2!important;
+}
+.checkbx del{
+  color: #999999;
+}
+.checkbx{
+  font-size: 17px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #eeeeee;
+  margin-bottom: 11px;
+  padding: 10px;
+}
+.checkbx label{
+  display: flex;
+  align-items: center;
+}
+.del{
+  color: white;
+  background-color: #ff6b6b;
+  border: none;
+  border-radius: 5px;
+  padding-inline: 10px;
+  padding-block: 5px;
+}
+input[type="checkbox"] { 
+  background-color: #4a90e2 !important;
+  color: white;
+  margin-right: 7px;
+}
+.main .checkbx:last-child{
+  border-bottom: none;
+}
